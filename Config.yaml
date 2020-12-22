@@ -1,0 +1,18 @@
+logs: 30   #Total number of running the evaluations
+evaluations: 10000
+#------------------------------------------
+problem_instance_pathname: 'problems/a3.lup'
+solution_file_pathname: 'solutions/a3_last.txt'
+log_file_pathname: 'logs/a3_last.txt'
+random_seed: 5
+black_constraint: False
+mu: 1000
+lambda: 20
+stochastic_parent: True #True for uniform stochastic, false for k_Tournament
+runs: 30
+#mating_pool_size: 20
+#parent_selection: 'Uniform' #or 'k_T' for k_Tournament
+parent_tournament: 25
+survival_tournament: 20
+generations: 100
+semi_black_constraint: False
